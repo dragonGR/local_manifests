@@ -1,1 +1,16 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<!-- Device Related repos -->
+<project remote="aicp" name="dragonGR/device_oneplus_enchilada" path="device/oneplus/enchilada" revision="p9.0" />
+<project remote="aicp" name="dragonGR/device_oneplus_sdm845-common" path="device/oneplus/sdm845-common" revision="p9.0" />
+<project remote="aicp" name="dragonGR/sdm845" path="kernel/oneplus/sdm845" revision="p9.0" />
+<project remote="aicp" name="AICP/proprietary_vendor_oneplus" path="vendor/oneplus" revision="p9.0" />
+<!-- Open Gapps -->
+<remote name="opengapps" fetch="https://github.com/opengapps/"  />
+<project path="vendor/opengapps/build" name="aosp_build" revision="master" remote="opengapps" />
+<project path="vendor/opengapps/sources/all" name="all" clone-depth="1" revision="master" remote="gitlab" />
+<project path="vendor/opengapps/sources/arm" name="arm" clone-depth="1" revision="master" remote="gitlab" />
+<project path="vendor/opengapps/sources/arm64" name="arm64" clone-depth="1" revision="master" remote="gitlab" />
+<project path="vendor/opengapps/sources/x86" name="x86" clone-depth="1" revision="master" remote="gitlab" />
+<project path="vendor/opengapps/sources/x86_64" name="x86_64" clone-depth="1" revision="master" remote="gitlab" />
+</manifest>
