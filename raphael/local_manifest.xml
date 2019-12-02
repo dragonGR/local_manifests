@@ -15,7 +15,7 @@
   <!-- NFC -->
   <project remote="aicp" name="raphael-development/android_vendor_nxp_opensource_external_libnfc-nci" path="vendor/nxp/opensource/commonsys/external/libnfc-nci" revision="lineage-17.0" />
   <project remote="aicp" name="raphael-development/android_vendor_nxp_opensource_frameworks" path="vendor/nxp/opensource/commonsys/frameworks" revision="lineage-17.0" />
-  <project remote="aicp" name="raphael-development/android_vendor_nxp_opensource_halimpl" path="vendor/nxp/opensource/halimpl" revision="lineage-17.0-sn100x" />
+  <project remote="aicp" name="raphael-development/android_vendor_nxp_opensource_halimpl" path="vendor/nxp/opensource/sn100x/halimpl" revision="lineage-17.0-sn100x" />
   <project remote="aicp" name="raphael-development/android_vendor_qcom_opensource_fm-commonsys" path="vendor/nxp/opensource/fm-commonsys" revision="lineage-17.0" />
   <project remote="aicp" name="raphael-development/android_vendor_nxp_opensource_packages_apps_Nfc" path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" revision="lineage-17.0" />
 </manifest>
