@@ -9,7 +9,7 @@
 
   <!-- Device repos -->
   <project remote="aicp" name="raphael-development/android_device_xiaomi_raphael" path="device/xiaomi/raphael" revision="lineage-17.0" />
-  <project remote="aicp" name="raphael-development/proprietary_vendor_xiaomi" path="vendor/xiaomi" revision="lineage-17" />
+  <project remote="aicp" name="raphael-development/proprietary_vendor_xiaomi" path="vendor/xiaomi" revision="lineage-17.0" />
   <project remote="aicp" name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" revision="lineage-17.0" />
 
   <!-- NFC -->
