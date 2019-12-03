@@ -6,10 +6,19 @@
   <remove-project name="LineageOS/android_vendor_nxp_opensource_packages_apps_Nfc" />
   <remove-project name="LineageOS/android_vendor_nxp_opensource_halimpl" />
   <remove-project name="LineageOS/android_vendor_qcom_opensource_fm-commonsys" />
-
+  <remove-project name="omnirom/android_packages_apps_Phonograph" />
+  <remove-project name="LineageOS/android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" />
+  <remove-project name="LineageOS/android_prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9" />
+  <remove-project name="LineageOS/android_packages_apps_Jelly" />
+  <remove-project name="LineageOS/android_packages_apps_Gallery2" />
+  <remove-project name="platform/packages/apps/Camera2" />
+  <remove-project name="AICP/packages_apps_Snap" />
+  <remove-project name="LineageOS/android_vendor_nxp_opensource_hidlimpl" />>
+  <remove-project name="LineageOS/android_vendor_qcom_opensource_libfmjni" />
+  
   <!-- Device repos -->
-  <project remote="aicp" name="raphael-development/android_device_xiaomi_raphael" path="device/xiaomi/raphael" revision="lineage-17.0" />
-  <project remote="aicp" name="raphael-development/proprietary_vendor_xiaomi" path="vendor/xiaomi" revision="lineage-17.0" />
+  <project remote="aicp" name="dragonGR/device_xiaomi_raphael" path="device/xiaomi/raphael" revision="q10.0" />
+  <project remote="aicp" name="dragonGR/proprietary_vendor_xiaomi" path="vendor/xiaomi" revision="q10.0" />
   <project remote="aicp" name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" revision="lineage-17.0" />
 
   <!-- NFC -->
