@@ -10,7 +10,6 @@
   <remove-project name="LineageOS/android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" />
   <remove-project name="LineageOS/android_prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9" />
   <remove-project name="LineageOS/android_packages_apps_Jelly" />
-  <remove-project name="LineageOS/android_packages_apps_Gallery2" />
   <remove-project name="platform/packages/apps/Camera2" />
   <remove-project name="AICP/packages_apps_Snap" />
   <remove-project name="LineageOS/android_vendor_nxp_opensource_hidlimpl" />>
@@ -19,6 +18,7 @@
   <!-- Device repos -->
   <project remote="aicp" name="dragonGR/device_xiaomi_raphael" path="device/xiaomi/raphael" revision="q10.0" />
   <project remote="aicp" name="dragonGR/proprietary_vendor_xiaomi" path="vendor/xiaomi" revision="q10.0" />
+  <project remote="aicp" name="dragonGR/xiaomi_sm8150" path="kernel/xiaomi/raphael" revision="q10.0" />
   <project remote="aicp" name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" revision="lineage-17.0" />
 
   <!-- NFC -->
