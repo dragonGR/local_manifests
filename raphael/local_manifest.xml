@@ -18,6 +18,15 @@
   <remove-project name="AICP/packages_apps_Snap" />
   <remove-project name="LineageOS/android_vendor_nxp_opensource_hidlimpl" />>
   <remove-project name="LineageOS/android_vendor_qcom_opensource_libfmjni" />
+  <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gdb/darwin-x86" />
+  <remove-project name="platform/prebuilts/go/darwin-x86" />
+  <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
 
   <!-- Device repos -->
   <project remote="aicp" name="dragonGR/device_xiaomi_raphael" path="device/xiaomi/raphael" revision="q10.0" />
