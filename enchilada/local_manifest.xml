@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  
+    <!-- Removals -->
+  <remove-project name="omnirom/android_packages_apps_Phonograph" />
+  <remove-project name="LineageOS/android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" />
+  <remove-project name="LineageOS/android_prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9" />
+  <remove-project name="LineageOS/android_packages_apps_Jelly" />
+  <remove-project name="platform/packages/apps/Camera2" />
+  <remove-project name="AICP/packages_apps_Snap" />
+  <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
+  
 <!-- Device Related repos -->
 <project remote="aicp" name="AICP/device_oneplus_enchilada" path="device/oneplus/enchilada" revision="q10.0" />
 <project remote="aicp" name="AICP/device_oneplus_sdm845-common" path="device/oneplus/sdm845-common" revision="q10.0" />
