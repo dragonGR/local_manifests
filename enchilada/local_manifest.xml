@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 <!-- Device Related repos -->
-<project remote="aicp" name="dragonGR/device_oneplus_enchilada" path="device/oneplus/enchilada" revision="p9.0" />
-<project remote="aicp" name="dragonGR/device_oneplus_sdm845-common" path="device/oneplus/sdm845-common" revision="p9.0" />
-<project remote="aicp" name="dragonGR/sdm845" path="kernel/oneplus/sdm845" revision="p9.0" />
-<project remote="aicp" name="AICP/proprietary_vendor_oneplus" path="vendor/oneplus" revision="p9.0" />
-<project remote="aicp" name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" revision="lineage-16.0" />
+<project remote="aicp" name="AICP/device_oneplus_enchilada" path="device/oneplus/enchilada" revision="q10.0" />
+<project remote="aicp" name="AICP/device_oneplus_sdm845-common" path="device/oneplus/sdm845-common" revision="q10.0" />
+<project remote="aicp" name="AICP/kernel_oneplus_sdm845" path="kernel/oneplus/sdm845" revision="q10.0" />
+<project remote="aicp" name="AICP/proprietary_vendor_oneplus" path="vendor/oneplus" revision="q10.0" />
+<project remote="aicp" name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" revision="lineage-17.0" />
 </manifest>
