@@ -16,7 +16,7 @@
   <remove-project name="LineageOS/android_packages_apps_Jelly" />
   <remove-project name="platform/packages/apps/Camera2" />
   <remove-project name="AICP/packages_apps_Snap" />
-  <remove-project name="LineageOS/android_vendor_nxp_opensource_hidlimpl" />>
+  <remove-project name="LineageOS/android_vendor_nxp_opensource_hidlimpl" />
   <remove-project name="LineageOS/android_vendor_qcom_opensource_libfmjni" />
   <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
 
