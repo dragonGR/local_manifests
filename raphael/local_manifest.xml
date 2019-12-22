@@ -3,6 +3,9 @@
 
 <remote name="gapps"
 	fetch="https://gitlab.com/" />
+	
+	<remote name="github"
+	fetch="https://github.com/" />
 
   <!-- Removals -->
   <remove-project name="LineageOS/android_vendor_nxp_opensource_external_libnfc-nci" />
@@ -27,27 +30,27 @@
   <remove-project name="AICP/packages_apps_AicpExtras" />
 	
   <!-- Device repos -->
-  <project remote="aicp" name="dragonGR/device_xiaomi_raphael" path="device/xiaomi/raphael" revision="q10.0-wip" />
-  <project remote="aicp" name="dragonGR/proprietary_vendor_xiaomi" path="vendor/xiaomi" revision="q10.0" />
-  <project remote="aicp" name="dragonGR/xiaomi_sm8150" path="kernel/xiaomi/raphael" revision="q10.0-wip" />
-  <project remote="aicp" name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" revision="lineage-17.0" />
+  <project remote="github" name="dragonGR/device_xiaomi_raphael" path="device/xiaomi/raphael" revision="q10.0-wip" />
+  <project remote="github" name="dragonGR/proprietary_vendor_xiaomi" path="vendor/xiaomi" revision="q10.0" />
+  <project remote="github" name="dragonGR/xiaomi_sm8150" path="kernel/xiaomi/raphael" revision="q10.0-wip" />
+  <project remote="github" name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" revision="lineage-17.0" />
 	
   <!-- ROM -->
-  <project remote="aicp" name="dragonGR/frameworks_av" path="frameworks/av" revision="q10.0" />
-  <project remote="aicp" name="dragonGR/frameworks_base" path="frameworks/base" revision="q10.0" />
-  <project remote="aicp" name="dragonGR/frameworks_native" path="frameworks/native" revision="q10.0" />
-  <project remote="aicp" name="dragonGR/packages_apps_Settings" path="packages/apps/Settings" revision="q10.0" />
-  <project remote="aicp" name="dragonGR/vendor_aicp" path="vendor/aicp" revision="q10.0" />
-  <project remote="aicp" name="dragonGR/packages_apps_AicpExtras" path="packages/apps/AicpExtras" revision="q10.0" />
+  <project remote="github" name="dragonGR/frameworks_av" path="frameworks/av" revision="q10.0" />
+  <project remote="github" name="dragonGR/frameworks_base" path="frameworks/base" revision="q10.0" />
+  <project remote="github" name="dragonGR/frameworks_native" path="frameworks/native" revision="q10.0" />
+  <project remote="github" name="dragonGR/packages_apps_Settings" path="packages/apps/Settings" revision="q10.0" />
+  <project remote="github" name="dragonGR/vendor_aicp" path="vendor/aicp" revision="q10.0" />
+  <project remote="github" name="dragonGR/packages_apps_AicpExtras" path="packages/apps/AicpExtras" revision="q10.0" />
 	
   <!-- Gapps -->
   <project name="razorloves/vendor_gapps" path="vendor/gapps" remote="gapps" revision="q" />
   <project name="razorloves/vendor_extra" path="vendor/extra" remote="gapps" revision="master" />
 
   <!-- NFC -->
-  <project remote="aicp" name="raphael-development/android_vendor_nxp_opensource_external_libnfc-nci" path="vendor/nxp/opensource/commonsys/external/libnfc-nci" revision="lineage-17.0" />
-  <project remote="aicp" name="raphael-development/android_vendor_nxp_opensource_frameworks" path="vendor/nxp/opensource/commonsys/frameworks" revision="lineage-17.0" />
-  <project remote="aicp" name="raphael-development/android_vendor_nxp_opensource_halimpl" path="vendor/nxp/opensource/sn100x/halimpl" revision="lineage-17.0-sn100x" />
-  <project remote="aicp" name="raphael-development/android_vendor_qcom_opensource_fm-commonsys" path="vendor/nxp/opensource/fm-commonsys" revision="lineage-17.0" />
-  <project remote="aicp" name="raphael-development/android_vendor_nxp_opensource_packages_apps_Nfc" path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" revision="lineage-17.0" />
+  <project remote="github" name="raphael-development/android_vendor_nxp_opensource_external_libnfc-nci" path="vendor/nxp/opensource/commonsys/external/libnfc-nci" revision="lineage-17.0" />
+  <project remote="github" name="raphael-development/android_vendor_nxp_opensource_frameworks" path="vendor/nxp/opensource/commonsys/frameworks" revision="lineage-17.0" />
+  <project remote="github" name="raphael-development/android_vendor_nxp_opensource_halimpl" path="vendor/nxp/opensource/sn100x/halimpl" revision="lineage-17.0-sn100x" />
+  <project remote="github" name="raphael-development/android_vendor_qcom_opensource_fm-commonsys" path="vendor/nxp/opensource/fm-commonsys" revision="lineage-17.0" />
+  <project remote="github" name="raphael-development/android_vendor_nxp_opensource_packages_apps_Nfc" path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" revision="lineage-17.0" />
 </manifest>
