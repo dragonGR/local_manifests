@@ -28,7 +28,7 @@
   <remove-project name="AICP/packages_apps_Settings" />
   <remove-project name="AICP/vendor_aicp" />
   <remove-project name="AICP/packages_apps_AicpExtras" />
-  <remove-project name="AICP/system_sepolicy" />
+  <remove-project name="platform/system/sepolicy" />
   <remove-project name="AICP/device_aicp_sepolicy" />
   <remove-project name="AICP/system_core" />
 	
