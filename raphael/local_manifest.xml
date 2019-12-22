@@ -28,6 +28,9 @@
   <remove-project name="AICP/packages_apps_Settings" />
   <remove-project name="AICP/vendor_aicp" />
   <remove-project name="AICP/packages_apps_AicpExtras" />
+  <remove-project name="AICP/system_sepolicy" />
+  <remove-project name="AICP/device_aicp_sepolicy" />
+  <remove-project name="AICP/system_core" />
 	
   <!-- Device repos -->
   <project remote="github" name="dragonGR/device_xiaomi_raphael" path="device/xiaomi/raphael" revision="q10.0-wip" />
@@ -42,6 +45,9 @@
   <project remote="github" name="dragonGR/packages_apps_Settings" path="packages/apps/Settings" revision="q10.0" />
   <project remote="github" name="dragonGR/vendor_aicp" path="vendor/aicp" revision="q10.0" />
   <project remote="github" name="dragonGR/packages_apps_AicpExtras" path="packages/apps/AicpExtras" revision="q10.0" />
+  <project remote="github" name="dragonGR/system_sepolicy" path="system/sepolicy" revision="q10.0" />
+  <project remote="github" name="dragonGR/device_aicp_sepolicy" path="device/aicp/sepolicy" revision="q10.0" />
+  <project remote="github" name="dragonGR/system_core" path="system/core" revision="q10.0" />
 	
   <!-- Gapps -->
   <project name="razorloves/vendor_gapps" path="vendor/gapps" remote="gapps" revision="q" />
