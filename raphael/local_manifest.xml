@@ -34,9 +34,9 @@
   <remove-project name="AICP/packages_apps_Dialer" />
 	
   <!-- Device repos -->
-  <project remote="githubb" name="dragonGR/device_xiaomi_raphael" path="device/xiaomi/raphael" revision="q10.0-wip" />
+  <project remote="githubb" name="dragonGR/device_xiaomi_raphael" path="device/xiaomi/raphael" revision="q10.0" />
   <project remote="githubb" name="dragonGR/proprietary_vendor_xiaomi" path="vendor/xiaomi" revision="q10.0" />
-  <project remote="githubb" name="dragonGR/xiaomi_sm8150" path="kernel/xiaomi/raphael" revision="q10.0-wip" />
+  <project remote="githubb" name="dragonGR/xiaomi_sm8150" path="kernel/xiaomi/raphael" revision="q10.0" />
   <project remote="githubb" name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" revision="lineage-17.0" />
 	
   <!-- ROM -->
