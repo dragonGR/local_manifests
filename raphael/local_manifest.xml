@@ -31,6 +31,7 @@
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="AICP/device_aicp_sepolicy" />
   <remove-project name="AICP/system_core" />
+  <remove-project name="AICP/packages_apps_Dialer" />
 	
   <!-- Device repos -->
   <project remote="githubb" name="dragonGR/device_xiaomi_raphael" path="device/xiaomi/raphael" revision="q10.0-wip" />
@@ -48,7 +49,8 @@
   <project remote="githubb" name="dragonGR/system_sepolicy" path="system/sepolicy" revision="q10.0" />
   <project remote="githubb" name="dragonGR/device_aicp_sepolicy" path="device/aicp/sepolicy" revision="q10.0" />
   <project remote="githubb" name="dragonGR/system_core" path="system/core" revision="q10.0" />
-	
+  <project remote="githubb" name="dragonGR/packages_apps_Dialer" path="packages/apps/Dialer" revision="q10.0" />
+
   <!-- Gapps -->
   <project name="razorloves/vendor_gapps" path="vendor/gapps" remote="gapps" revision="q" />
   <project name="razorloves/vendor_extra" path="vendor/extra" remote="gapps" revision="master" />
