@@ -8,31 +8,25 @@
 	fetch="https://github.com/" />
 
   <!-- Removals -->
-  <remove-project name="LineageOS/android_vendor_nxp_opensource_external_libnfc-nci" />
-  <remove-project name="LineageOS/android_vendor_nxp_opensource_frameworks" />
-  <remove-project name="LineageOS/android_vendor_nxp_opensource_packages_apps_Nfc" />
-  <remove-project name="LineageOS/android_vendor_nxp_opensource_halimpl" />
-  <remove-project name="LineageOS/android_vendor_qcom_opensource_fm-commonsys" />
   <remove-project name="omnirom/android_packages_apps_Phonograph" />
   <remove-project name="LineageOS/android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" />
   <remove-project name="LineageOS/android_prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9" />
-  <remove-project name="LineageOS/android_packages_apps_Jelly" />
+  <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
   <remove-project name="platform/packages/apps/Camera2" />
   <remove-project name="AICP/packages_apps_Snap" />
-  <remove-project name="LineageOS/android_vendor_nxp_opensource_hidlimpl" />
-  <remove-project name="LineageOS/android_vendor_qcom_opensource_libfmjni" />
-  <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
   <remove-project name="AICP/frameworks_av" />
   <remove-project name="AICP/frameworks_base" />
   <remove-project name="AICP/frameworks_native" />
   <remove-project name="AICP/packages_apps_Settings" />
   <remove-project name="AICP/vendor_aicp" />
-  <remove-project name="AICP/packages_apps_AicpExtras" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="AICP/device_aicp_sepolicy" />
+  <remove-project name="AICP/packages_apps_Jelly" />
+  <!-- <remove-project name="AICP/packages_apps_AicpExtras" />
   <remove-project name="AICP/system_core" />
   <remove-project name="AICP/packages_apps_Dialer" />
-  <remove-project name="LineageOS/android_art" />
+  <remove-project name="LineageOS/android_art" /> -->
+	
   <!-- Device repos -->
   <project remote="githubb" name="dragonGR/device_xiaomi_raphael" path="device/xiaomi/raphael" revision="q10.0" />
   <project remote="githubb" name="dragonGR/proprietary_vendor_xiaomi" path="vendor/xiaomi" revision="q10.0" />
@@ -45,21 +39,14 @@
   <project remote="githubb" name="dragonGR/frameworks_native" path="frameworks/native" revision="q10.0" />
   <project remote="githubb" name="dragonGR/packages_apps_Settings" path="packages/apps/Settings" revision="q10.0" />
   <project remote="githubb" name="dragonGR/vendor_aicp" path="vendor/aicp" revision="q10.0" />
-  <project remote="githubb" name="dragonGR/packages_apps_AicpExtras" path="packages/apps/AicpExtras" revision="q10.0" />
   <project remote="githubb" name="dragonGR/system_sepolicy" path="system/sepolicy" revision="q10.0" />
   <project remote="githubb" name="dragonGR/device_aicp_sepolicy" path="device/aicp/sepolicy" revision="q10.0" />
+  <!-- <project remote="githubb" name="dragonGR/packages_apps_AicpExtras" path="packages/apps/AicpExtras" revision="q10.0" />	
   <project remote="githubb" name="dragonGR/system_core" path="system/core" revision="q10.0" />
   <project remote="githubb" name="dragonGR/packages_apps_Dialer" path="packages/apps/Dialer" revision="q10.0" />
-  <project remote="githubb" name="dragonGR/android_art" path="art" revision="q10.0" />
+  <project remote="githubb" name="dragonGR/android_art" path="art" revision="q10.0" /> -->
 	
   <!-- Gapps -->
   <project name="razorloves/vendor_gapps" path="vendor/gapps" remote="gapps" revision="q" />
   <project name="razorloves/vendor_extra" path="vendor/extra" remote="gapps" revision="master" />
-
-  <!-- NFC -->
-  <project remote="githubb" name="raphael-development/android_vendor_nxp_opensource_external_libnfc-nci" path="vendor/nxp/opensource/commonsys/external/libnfc-nci" revision="lineage-17.0" />
-  <project remote="githubb" name="raphael-development/android_vendor_nxp_opensource_frameworks" path="vendor/nxp/opensource/commonsys/frameworks" revision="lineage-17.0" />
-  <project remote="githubb" name="raphael-development/android_vendor_nxp_opensource_halimpl" path="vendor/nxp/opensource/sn100x/halimpl" revision="lineage-17.0-sn100x" />
-  <project remote="githubb" name="raphael-development/android_vendor_qcom_opensource_fm-commonsys" path="vendor/nxp/opensource/fm-commonsys" revision="lineage-17.0" />
-  <project remote="githubb" name="raphael-development/android_vendor_nxp_opensource_packages_apps_Nfc" path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" revision="lineage-17.0" />
 </manifest>
