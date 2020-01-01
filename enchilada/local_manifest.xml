@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 <!-- Device Related repos -->
+<!-- p9.0 is deprecated. You can still compile but you won't receive any support from me -->
 <project remote="aicp" name="dragonGR/device_oneplus_enchilada" path="device/oneplus/enchilada" revision="p9.0" />
 <project remote="aicp" name="dragonGR/device_oneplus_sdm845-common" path="device/oneplus/sdm845-common" revision="p9.0" />
 <project remote="aicp" name="dragonGR/sdm845" path="kernel/oneplus/sdm845" revision="p9.0" />
