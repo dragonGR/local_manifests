@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
 <project path="device/xiaomi/raphael" name="dragonGR/device_xiaomi_raphael" remote="github" revision="Q-TWRP" />
 </manifest>
