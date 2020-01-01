@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
+<!-- p9.0 is deprecated. You can still compile but you won't receive any support from me -->
 <remote name="gapps"
         fetch="https://gitlab.com/" />
 
