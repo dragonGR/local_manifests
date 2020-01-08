@@ -8,16 +8,11 @@
         fetch="https://github.com/" />
 
   <!-- Removals -->
-  <remove-project name="omnirom/android_packages_apps_Phonograph" />
   <remove-project name="LineageOS/android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" />
   <remove-project name="LineageOS/android_prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9" />
-  <remove-project name="AICP/packages_apps_Jelly" />
-  <remove-project name="platform/packages/apps/Camera2" />
-  <remove-project name="AICP/packages_apps_Snap" />
   <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="AICP/device_aicp_sepolicy" />
-  <remove-project name="AICP/frameworks_av" />
   <remove-project name="AICP/frameworks_base" />
   <remove-project name="AICP/frameworks_native" />
   <remove-project name="AICP/packages_apps_Settings" />
@@ -25,7 +20,8 @@
   <!-- <remove-project name="AICP/packages_apps_AicpExtras" />
   <remove-project name="AICP/system_core" />
   <remove-project name="AICP/packages_apps_Dialer" />
-  <remove-project name="LineageOS/android_art" /> -->
+  <remove-project name="LineageOS/android_art" />
+  <remove-project name="AICP/frameworks_av" /> -->
 	
   <!-- Device repos -->
   <project remote="githubb" name="dragonGR/device_xiaomi_raphael" path="device/xiaomi/raphael" revision="q10.0" />
@@ -34,7 +30,6 @@
   <project remote="githubb" name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" revision="lineage-17.0" />
 
   <!-- ROM -->
-  <project remote="githubb" name="dragonGR/frameworks_av" path="frameworks/av" revision="q10.0" />
   <project remote="githubb" name="dragonGR/frameworks_base" path="frameworks/base" revision="q10.0" />
   <project remote="githubb" name="dragonGR/frameworks_native" path="frameworks/native" revision="q10.0" />
   <project remote="githubb" name="dragonGR/packages_apps_Settings" path="packages/apps/Settings" revision="q10.0" />
@@ -42,6 +37,7 @@
   <project remote="githubb" name="dragonGR/system_sepolicy" path="system/sepolicy" revision="q10.0" />
   <project remote="githubb" name="dragonGR/device_aicp_sepolicy" path="device/aicp/sepolicy" revision="q10.0" />
   <!-- <project remote="githubb" name="dragonGR/packages_apps_AicpExtras" path="packages/apps/AicpExtras" revision="q10.0" />
+  <project remote="githubb" name="dragonGR/frameworks_av" path="frameworks/av" revision="q10.0" />
   <project remote="githubb" name="dragonGR/system_core" path="system/core" revision="q10.0" />
   <project remote="githubb" name="dragonGR/packages_apps_Dialer" path="packages/apps/Dialer" revision="q10.0" />
   <project remote="githubb" name="dragonGR/android_art" path="art" revision="q10.0" /> -->
