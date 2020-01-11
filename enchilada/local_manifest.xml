@@ -29,6 +29,7 @@
   <project remote="githubb" name="dragonGR/kernel_oneplus_sdm845" path="kernel/oneplus/sdm845" revision="q10.0" />
   <project remote="githubb" name="AICP/proprietary_vendor_oneplus" path="vendor/oneplus" revision="q10.0" />
   <project remote="githubb" name="AICP/packages_resources_devicesettings" path="packages/resources/devicesettings" revision="q10.0" />
+  <project remote="githubb" name="AICP/device_twrp" path="device/twrp" revision="enchilada" />
 
   <!-- ROM -->
   <project remote="githubb" name="dragonGR/frameworks_base" path="frameworks/base" revision="q10.0" />
