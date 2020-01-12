@@ -16,6 +16,7 @@
   <remove-project name="AICP/frameworks_base" />
   <remove-project name="AICP/frameworks_native" />
   <remove-project name="AICP/packages_apps_Settings" />
+  <remove-project name="AICP/packages_apps_Launcher3" />
   <remove-project name="AICP/vendor_aicp" />
   <!-- <remove-project name="AICP/packages_apps_AicpExtras" />
   <remove-project name="AICP/frameworks_av" />
@@ -35,6 +36,7 @@
   <project remote="githubb" name="dragonGR/frameworks_base" path="frameworks/base" revision="q10.0" />
   <project remote="githubb" name="dragonGR/frameworks_native" path="frameworks/native" revision="q10.0" />
   <project remote="githubb" name="dragonGR/packages_apps_Settings" path="packages/apps/Settings" revision="q10.0" />
+  <project remote="githubb" name="dragonGR/packages_apps_Launcher3" path="packages/apps/Launcher3" revision="q10.0" />
   <project remote="githubb" name="dragonGR/vendor_aicp" path="vendor/aicp" revision="q10.0" />
   <project remote="githubb" name="dragonGR/system_sepolicy" path="system/sepolicy" revision="q10.0" />
   <project remote="githubb" name="dragonGR/device_aicp_sepolicy" path="device/aicp/sepolicy" revision="q10.0" />
