@@ -9,7 +9,7 @@
 
   <!-- Removals -->
   <remove-project name="AICP/packages_apps_Settings" />
-  <remove-project name="AICP/packages_apps_Launcher3" /
+  <remove-project name="AICP/packages_apps_Launcher3" />
   <remove-project name="AICP/packages_apps_AicpExtras" />
   <remove-project name="AICP/packages_apps_Updater" />
   <remove-project name="AICP/packages_overlays_AICP" />
