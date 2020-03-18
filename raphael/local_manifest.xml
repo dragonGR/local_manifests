@@ -7,21 +7,21 @@
         <remote name="githubb"
         fetch="https://github.com/" />
 
-  <!-- Removals -->
+  <!-- Removals
   <remove-project name="AICP/packages_apps_Settings" />
   <remove-project name="AICP/packages_apps_Launcher3" />
-  <remove-project name="AICP/packages_apps_AicpExtras" />
   <remove-project name="AICP/packages_apps_Updater" />
   <remove-project name="AICP/packages_apps_Dialer" />
-  <remove-project name="AICP/packages_apps_Contacts" />
-  <remove-project name="AICP/packages_apps_Messaging" />	
   <remove-project name="AICP/frameworks_opt_aicpgear" />
-  <remove-project name="AICP/frameworks_av" />
-  <remove-project name="AICP/frameworks_base" />
+  <remove-project name="AICP/packages_apps_Contacts" />
   <remove-project name="AICP/system_sepolicy" />
   <remove-project name="AICP/system_core" />
+  <remove-project name="AICP/device_aicp_sepolicy" /> -->
+  <remove-project name="AICP/packages_apps_AicpExtras" />
+  <remove-project name="AICP/packages_apps_Messaging" />	
+  <remove-project name="AICP/frameworks_av" />
+  <remove-project name="AICP/frameworks_base" />
   <remove-project name="AICP/system_vold" />
-  <remove-project name="AICP/device_aicp_sepolicy" />
   <remove-project name="AICP/vendor_aicp" />
   <remove-project name="LineageOS/android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" />
   <remove-project name="LineageOS/android_prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9" />
@@ -34,21 +34,21 @@
   <project remote="githubb" name="dragonGR/proprietary_vendor_xiaomi" path="vendor/xiaomi" revision="q10.0" />
   <project remote="githubb" name="dragonGR/packages_resources_devicesettings" path="packages/resources/devicesettings" revision="q10.0" />
 
-  <!-- ROM -->
+  <!-- ROM
   <project remote="githubb" name="dragonGR/packages_apps_Settings" path="packages/apps/Settings" revision="q10.0" />
   <project remote="githubb" name="dragonGR/packages_apps_Launcher3" path="packages/apps/Launcher3" revision="q10.0" />
-  <project remote="githubb" name="dragonGR/packages_apps_AicpExtras" path="packages/apps/AicpExtras" revision="q10.0" />
   <project remote="githubb" name="dragonGR/packages_apps_Updater" path="packages/apps/Updater" revision="q10.0" />
   <project remote="githubb" name="dragonGR/packages_apps_Dialer" path="packages/apps/Dialer" revision="q10.0" />
   <project remote="githubb" name="dragonGR/packages_apps_Contacts" path="packages/apps/Contacts" revision="q10.0" />
-  <project remote="githubb" name="dragonGR/packages_apps_Messaging" path="packages/apps/Messaging" revision="q10.0" />
   <project remote="githubb" name="dragonGR/frameworks_opt_aicpgear" path="frameworks/opt/aicpgear" revision="q10.0" />
-  <project remote="githubb" name="dragonGR/frameworks_av" path="frameworks/av" revision="q10.0" />
-  <project remote="githubb" name="dragonGR/frameworks_base" path="frameworks/base" revision="q10.0" />
   <project remote="githubb" name="dragonGR/system_sepolicy" path="system/sepolicy" revision="q10.0" />
   <project remote="githubb" name="dragonGR/system_core" path="system/core" revision="q10.0" />
+  <project remote="githubb" name="dragonGR/device_aicp_sepolicy" path="device/aicp/sepolicy" revision="q10.0" /> -->
+  <project remote="githubb" name="dragonGR/packages_apps_AicpExtras" path="packages/apps/AicpExtras" revision="q10.0" />
+  <project remote="githubb" name="dragonGR/packages_apps_Messaging" path="packages/apps/Messaging" revision="q10.0" />
+  <project remote="githubb" name="dragonGR/frameworks_av" path="frameworks/av" revision="q10.0" />
+  <project remote="githubb" name="dragonGR/frameworks_base" path="frameworks/base" revision="q10.0" />
   <project remote="githubb" name="dragonGR/system_vold" path="system/vold" revision="q10.0" />
-  <project remote="githubb" name="dragonGR/device_aicp_sepolicy" path="device/aicp/sepolicy" revision="q10.0" />
   <project remote="githubb" name="dragonGR/vendor_aicp" path="vendor/aicp" revision="q10.0" />
 
   <!-- Gapps -->
