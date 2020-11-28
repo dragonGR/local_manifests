@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<remote name="gapps"
+        fetch="https://gitlab.com/" />
+
+        <remote name="githubb"
+        fetch="https://github.com/" />
+
+<!-- Removals -->
+<remove-project name="AICP/frameworks_base" />
+<remove-project name="AICP/frameworks_native" />
+<remove-project name="AICP/frameworks_av" />
+<remove-project name="AICP/packages_apps_Settings" />
+<remove-project name="AICP/packages_apps_AicpExtras" />
+<remove-project name="AICP/vendor_aicp" />
+
+<!-- Device repos -->
+<project name="dragonGR/device_xiaomi_raphael" path="device/xiaomi/raphael" remote="github" revision="r11.0" />
+<project name="dragonGR/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="githubb" revision="r11.0" />
+
+<!-- Apex -->
+<project name="dragonGR/vendor_prebuilts" path="vendor/prebuilts" remote="githubb" revision="eleven" />
+
+<!-- Aicp stuff -->
+<project name="dragonGR/frameworks_base" path="frameworks/base" remote="githubb" revision="r11.0" />
+<project name="dragonGR/frameworks_native" path="frameworks/native" remote="githubb" revision="r11.0" />
+<project name="dragonGR/frameworks_av" path="frameworks/av" remote="githubb" revision="r11.0" />
+<project name="dragonGR/packages_apps_Settings" path="packages/apps/Settings" remote="githubb" revision="r11.0" />
+<project name="dragonGR/packages_apps_AicpExtras" path="packages/apps/AicpExtras" remote="githubb" revision="r11.0" />
+<project name="dragonGR/vendor_aicp" path="vendor/aicp" remote="githubb" revision="r11.0" />
+</manifest>
