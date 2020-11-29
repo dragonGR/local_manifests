@@ -1,22 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
-<remote name="gapps"
-        fetch="https://gitlab.com/" />
-
         <remote name="githubb"
         fetch="https://github.com/" />
 
 <!-- Removals -->
 <remove-project name="AICP/frameworks_base" />
 <remove-project name="AICP/frameworks_native" />
-<remove-project name="AICP/frameworks_av" />
+<remove-project name="LineageOS/android_frameworks_av" />
 <remove-project name="AICP/packages_apps_Settings" />
 <remove-project name="AICP/packages_apps_AicpExtras" />
 <remove-project name="AICP/vendor_aicp" />
+<remove-project name="AICP/packages_apps_Launcher3" />
+<remove-project name="AICP/build_soong" />
+<remove-project name="AICP/packages_apps_ThemePicker" />
+<remove-project name="AICP/packages_apps_WallpaperPicker2" />
+<!-- <remove-project name="AICP/packages_services_OmniJaws" />
+<remove-project name="AICP/packages_apps_PartsBin" /> -->
 
 <!-- Device repos -->
-<project name="dragonGR/device_xiaomi_raphael" path="device/xiaomi/raphael" remote="github" revision="r11.0" />
+<project name="dragonGR/device_xiaomi_raphael" path="device/xiaomi/raphael" remote="githubb" revision="r11.0" />
 <project name="dragonGR/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="githubb" revision="r11.0" />
 
 <!-- Apex -->
@@ -29,4 +31,10 @@
 <project name="dragonGR/packages_apps_Settings" path="packages/apps/Settings" remote="githubb" revision="r11.0" />
 <project name="dragonGR/packages_apps_AicpExtras" path="packages/apps/AicpExtras" remote="githubb" revision="r11.0" />
 <project name="dragonGR/vendor_aicp" path="vendor/aicp" remote="githubb" revision="r11.0" />
+<project name="dragonGR/packages_apps_Launcher3" path="packages/apps/Launcher3" remote="githubb" revision="r11.0" />
+<project name="dragonGR/packages_apps_PartsBin" path="packages/apps/PartsBin" remote="githubb" revision="r11.0" />
+<project name="dragonGR/build_soong" path="build/soong" remote="githubb" revision="r11.0" />
+<project name="dragonGR/packages_apps_ThemePicker" path="packages/apps/ThemePicker" remote="githubb" revision="r11.0" />
+<project name="dragonGR/packages_apps_WallpaperPicker2" path="packages/apps/WallpaperPicker2" remote="githubb" revision="r11.0" />
+<project name="dragonGR/packages_services_OmniJaws" path="packages/services/OmniJaws" remote="githubb" revision="r11.0" />
 </manifest>
