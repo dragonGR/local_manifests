@@ -1,40 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-        <remote name="githubb"
+        <remote name="git"
         fetch="https://github.com/" />
 
-<!-- Removals -->
+<!-- removals -->
+<remove-project name="LineageOS/android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" />
+<remove-project name="LineageOS/android_prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9" />
+<remove-project name="LineageOS/android_prebuilts_gcc_darwin-x86_x86_x86_64-linux-android-4.9" />
+<remove-project name="LineageOS/android_frameworks_av" />
+<remove-project name="AICP/packages_services_Telecomm" />
+<remove-project name="AICP/build" />
+<remove-project name="AICP/build_soong" />
+<remove-project name="LineageOS/android_bionic" />
+<remove-project name="AICP/system_core" />
+<remove-project name="AICP/device_aicp_sepolicy" />
+<!-- <remove-project name="platform/frameworks/av" /> -->
 <remove-project name="AICP/frameworks_base" />
 <remove-project name="AICP/frameworks_native" />
-<remove-project name="LineageOS/android_frameworks_av" />
-<remove-project name="AICP/packages_apps_Settings" />
+<!-- <remove-project name="AICP/packages_resources_devicesettings" />
+<remove-project name="AICP/packages_services_Telecomm" /> -->
 <remove-project name="AICP/packages_apps_AicpExtras" />
-<remove-project name="AICP/vendor_aicp" />
+<remove-project name="AICP/packages_apps_Settings" />
 <remove-project name="AICP/packages_apps_Launcher3" />
-<remove-project name="AICP/build_soong" />
 <remove-project name="AICP/packages_apps_ThemePicker" />
 <remove-project name="AICP/packages_apps_WallpaperPicker2" />
-<!-- <remove-project name="AICP/packages_services_OmniJaws" />
-<remove-project name="AICP/packages_apps_PartsBin" /> -->
+<remove-project name="AICP/vendor_aicp" />
+<remove-project name="platform/packages/modules/DnsResolver" />
 
-<!-- Device repos -->
-<project name="dragonGR/device_xiaomi_raphael" path="device/xiaomi/raphael" remote="githubb" revision="r11.0" />
-<project name="dragonGR/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="githubb" revision="r11.0" />
-
-<!-- Apex -->
-<project name="dragonGR/vendor_prebuilts" path="vendor/prebuilts" remote="githubb" revision="eleven" />
-
-<!-- Aicp stuff -->
-<project name="dragonGR/frameworks_base" path="frameworks/base" remote="githubb" revision="r11.0" />
-<project name="dragonGR/frameworks_native" path="frameworks/native" remote="githubb" revision="r11.0" />
-<project name="dragonGR/frameworks_av" path="frameworks/av" remote="githubb" revision="r11.0" />
-<project name="dragonGR/packages_apps_Settings" path="packages/apps/Settings" remote="githubb" revision="r11.0" />
-<project name="dragonGR/packages_apps_AicpExtras" path="packages/apps/AicpExtras" remote="githubb" revision="r11.0" />
-<project name="dragonGR/vendor_aicp" path="vendor/aicp" remote="githubb" revision="r11.0" />
-<project name="dragonGR/packages_apps_Launcher3" path="packages/apps/Launcher3" remote="githubb" revision="r11.0" />
-<project name="dragonGR/packages_apps_PartsBin" path="packages/apps/PartsBin" remote="githubb" revision="r11.0" />
-<project name="dragonGR/build_soong" path="build/soong" remote="githubb" revision="r11.0" />
-<project name="dragonGR/packages_apps_ThemePicker" path="packages/apps/ThemePicker" remote="githubb" revision="r11.0" />
-<project name="dragonGR/packages_apps_WallpaperPicker2" path="packages/apps/WallpaperPicker2" remote="githubb" revision="r11.0" />
-<project name="dragonGR/packages_services_OmniJaws" path="packages/services/OmniJaws" remote="githubb" revision="r11.0" />
+<!-- Sync -->
+<!-- device tree -->
+<project name="dragonGR/device_xiaomi_raphael" path="device/xiaomi/raphael" remote="git" revision="r11.0" />
+<project name="dragonGR/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="git" revision="r11.0" />
+<!-- apex -->
+<project name="dragonGR/vendor_prebuilts" path="vendor/prebuilts" remote="git" revision="eleven" />
+<!--build -->
+<project name="dragonGR/build" path="build/make" remote="git" revision="r11.0" />
+<project name="dragonGR/build_soong" path="build/soong" remote="git" revision="r11.0" />
+<project name="dragonGR/bionic" path="bionic" remote="git" revision="r11.0" />
+<project name="dragonGR/system_core" path="system/core" remote="git" revision="r11.0" />
+<project name="dragonGR/device_aicp_sepolicy" path="device/aicp/sepolicy" remote="git" revision="r11.0" />
+<project name="LineageOS/android_device_lineage_sepolicy" path="device/lineage/sepolicy" remote="git" revision="lineage-18.0" />
+<!-- vendor -->
+<project name="dragonGR/vendor_aicp" path="vendor/aicp" remote="git" revision="r11.0" />
+<!-- framework -->
+<project name="dragonGR/frameworks_av" path="frameworks/av" remote="git" revision="r11.0" />
+<project name="dragonGR/frameworks_base" path="frameworks/base" remote="git" revision="r11.0" />
+<project name="dragonGR/frameworks_native" path="frameworks/native" remote="git" revision="r11.0" />
+<!-- packages -->
+<project name="dragonGR/packages_resources_deviceparts" path="packages/resources/deviceparts" remote="git" revision="r11.0" />
+<project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="git" revision="lineage-18.0" />
+<project name="dragonGR/packages_services_Telecomm" path="packages/services/Telecomm" remote="git" revision="r11.0" />
+<project name="dragonGR/packages_services_OmniJaws" path="packages/services/OmniJaws" remote="git" revision="r11.0" />
+<project name="dragonGR/packages_apps_OmniStyle" path="packages/apps/OmniStyle" remote="git" revision="r11.0" />
+<project name="dragonGR/packages_apps_AicpExtras" path="packages/apps/AicpExtras" remote="git" revision="r11.0" />
+<project name="dragonGR/packages_apps_Settings" path="packages/apps/Settings" remote="git" revision="r11.0" />
+<project name="dragonGR/packages_apps_Launcher3" path="packages/apps/Launcher3" remote="git" revision="r11.0" />
+<project name="dragonGR/packages_apps_PartsBin" path="packages/apps/PartsBin" remote="git" revision="r11.0" />
+<project name="dragonGR/packages_apps_ThemePicker" path="packages/apps/ThemePicker" remote="git" revision="r11.0" />
+<project name="dragonGR/packages_apps_WallpaperPicker2" path="packages/apps/WallpaperPicker2" remote="git" revision="r11.0" />
+<project name="dragonGR/packages_modules_DnsResolver" path="packages/modules/DnsResolver" remote="git" revision="r11.0" />
+<!-- External -->
+<project name="StevenBlack/hosts" path="external/hosts" remote="git" revision="master" />
 </manifest>
