@@ -15,10 +15,7 @@
 <remove-project name="LineageOS/android_system_bt" />
 <remove-project name="AICP/packages_services_Telecomm" />
 <remove-project name="AICP/vendor_aicp" />
-<remove-project name="AICP/packages_apps_WallpaperPicker2" />
-<remove-project name="AICP/packages_apps_ThemePicker" />
-<remove-project name="AICP/packages_modules_DnsResolver" />
-        
+
 <!-- Sync -->
 <project name="dragonGR/device_xiaomi_raphael" path="device/xiaomi/raphael" remote="git" revision="r11.1" />
 <project name="dragonGR/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="git" revision="r11.1" />
@@ -30,8 +27,5 @@
 <project name="dragonGR/system_bt" path="system/bt" remote="git" revision="r11.1" />
 <project name="dragonGR/packages_services_Telecomm" path="packages/services/Telecomm" remote="git" revision="r11.1" />
 <project name="dragonGR/vendor_aicp" path="vendor/aicp" remote="git" revision="r11.1" />
-<project name="dragonGR/packages_apps_WallpaperPicker2" path="packages/apps/WallpaperPicker2" remote="git" revision="r11.1" />
-<project name="dragonGR/packages_apps_ThemePicker" path="packages/apps/ThemePicker" remote="git" revision="r11.1" />
-<project name="dragonGR/packages_modules_DnsResolver" path="packages/modules/DnsResolver" remote="git" revision="r11.1" />
 
 </manifest>
