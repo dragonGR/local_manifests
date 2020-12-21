@@ -15,6 +15,7 @@
 <remove-project name="LineageOS/android_system_bt" />
 <remove-project name="AICP/packages_services_Telecomm" />
 <remove-project name="AICP/vendor_aicp" />
+<remove-project name="AICP/frameworks_native" />
 
 <!-- Sync -->
 <project name="dragonGR/device_xiaomi_raphael" path="device/xiaomi/raphael" remote="git" revision="r11.1" />
@@ -27,5 +28,6 @@
 <project name="dragonGR/system_bt" path="system/bt" remote="git" revision="r11.1" />
 <project name="dragonGR/packages_services_Telecomm" path="packages/services/Telecomm" remote="git" revision="r11.1" />
 <project name="dragonGR/vendor_aicp" path="vendor/aicp" remote="git" revision="r11.1" />
+<project name="dragonGR/frameworks_native" path="frameworks/native" remote="git" revision="r11.1" />
 
 </manifest>
