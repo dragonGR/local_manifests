@@ -19,6 +19,7 @@
 <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
 <!-- AICP projects -->
 <remove-project name="AICP/build" />
+<remove-project name="AICP/build_soong" />
 <remove-project name="AICP/frameworks_base" />
 <remove-project name="AICP/frameworks_native" />
 <remove-project name="AICP/device_aicp_sepolicy" />
@@ -40,6 +41,7 @@
 <project name="dragonGR/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="git" revision="r11.1" />
 <!-- Rom -->
 <project name="dragonGR/build" path="build/make" remote="git" revision="r11.1" />
+<project name="dragonGR/build_soong" path="build/soong" remote="git" revision="r11.1" />
 <project name="dragonGR/frameworks_av" path="frameworks/av" remote="git" revision="r11.1" />
 <project name="dragonGR/frameworks_base" path="frameworks/base" remote="git" revision="r11.1" />
 <project name="dragonGR/frameworks_native" path="frameworks/native" remote="git" revision="r11.1" />
