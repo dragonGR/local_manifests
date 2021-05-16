@@ -23,7 +23,7 @@
 <remove-project name="AICP/packages_apps_ExactCalculator" />
 <remove-project name="AICP/packages_resources_devicesettings" />
 <remove-project name="AICP/vendor_aicp" />
-<remove-project name="AICP/system_netd" />
+<remove-project name="LineageOS/android_system_netd" />
 
 <!-- Sync -->
 <!-- Device -->
