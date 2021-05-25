@@ -22,6 +22,7 @@
 <remove-project name="AICP/packages_apps_SetupWizard" />
 <remove-project name="AICP/vendor_aicp" />
 <remove-project name="LineageOS/android_system_netd" />
+<remove-project name="AICP/packages_apps_ThemePicker" />
 
 <!-- Sync -->
 <!-- Device -->
@@ -35,6 +36,8 @@
 <project name="dragonGR/packages_apps_Settings" path="packages/apps/Settings" remote="git" revision="r11.1" />
 <project name="dragonGR/packages_apps_PartsBin" path="packages/apps/PartsBin" remote="git" revision="r11.1" />
 <project name="dragonGR/packages_apps_SetupWizard" path="packages/apps/SetupWizard" remote="git" revision="r11.1" />
+<project name="dragonGR/packages_apps_ThemePicker" path="packages/apps/ThemePicker" remote="git" revision="r11.1" />
+
 <project name="dragonGR/vendor_aicp" path="vendor/aicp" remote="git" revision="r11.1" />
 <project name="dragonGR/system_netd" path="system/netd" remote="git" revision="r11.1" />
 </manifest>
