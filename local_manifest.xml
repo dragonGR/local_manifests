@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+        <remote name="git"
+        fetch="https://github.com/" />
+
+<!-- Removals -->
+<remove-project name="LineageOS/android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" />
+<remove-project name="LineageOS/android_prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9" />
+<remove-project name="LineageOS/android_prebuilts_gcc_darwin-x86_x86_x86_64-linux-android-4.9" />
+<remove-project name="platform/prebuilts/clang/host/darwin-x86" />
+<remove-project name="platform/prebuilts/go/darwin-x86" />
+<remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
+<remove-project name="AICP/frameworks_av" />
+<remove-project name="AICP/frameworks_base" />
+<remove-project name="AICP/frameworks_native" />
+<remove-project name="AICP/packages_apps_AicpExtras" />
+<remove-project name="AICP/packages_apps_Settings" />
+<remove-project name="AICP/system_core" />
+
+<!-- Device Sources -->
+<project name="dragonGR/device_oneplus_enchilada" path="device/oneplus/enchilada" remote="git" revision="s12.1" />
+<project name="dragonGR/device_oneplus_sdm845-common" path="device/oneplus/sdm845-common" remote="git" revision="s12.1" />
+<project name="AICP/device_oneplus_settings" path="device/oneplus/settings" remote="git" revision="s12.1" />
+<project name="AICP/device_oneplus_common" path="device/oneplus/common" remote="git" revision="s12.1" />
+<project name="dragonGR/kernel_oneplus_sdm845" path="kernel/oneplus/sdm845" remote="git" revision="s12.1" />
+<project name="dragonGR/proprietary_vendor_oneplus" path="vendor/oneplus" remote="git" revision="s12.1" />
+
+<!-- Android repos -->
+<project name="dragonGR/packages_apps_AicpExtras" path="packages/apps/AicpExtras" remote="git" revision="s12.1" />
+<project name="dragonGR/packages_apps_Settings" path="packages/apps/Settings" remote="git" revision="s12.1" />
+<project name="dragonGR/frameworks_base" path="frameworks/base" remote="git" revision="s12.1" />
+<project name="dragonGR/frameworks_av" path="frameworks/av" remote="git" revision="s12.1" />
+<project name="dragonGR/frameworks_native" path="frameworks/native" remote="git" revision="s12.1" />
+<project name="dragonGR/system_core" path="system/core" remote="git" revision="s12.1" />
+</manifest>
