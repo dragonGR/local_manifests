@@ -2,7 +2,10 @@
 <manifest>
         <remote name="git"
         fetch="https://github.com/" />
-
+        
+        <remote name="lab"
+        fetch="https://gitlab.com/" />
+        
 <!-- Removals -->
 <remove-project name="LineageOS/android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" />
 <remove-project name="LineageOS/android_prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9" />
@@ -32,4 +35,7 @@
 <project name="dragonGR/frameworks_av" path="frameworks/av" remote="git" revision="s12.1" />
 <project name="dragonGR/frameworks_native" path="frameworks/native" remote="git" revision="s12.1" />
 <project name="dragonGR/system_core" path="system/core" remote="git" revision="s12.1" />
+        
+<!-- MindTheGapps -->
+<project name="MindTheGapps/vendor_gapps" path="vendor/gapps" remote="lab" revision="sigma" />
 </manifest>
