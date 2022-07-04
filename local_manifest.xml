@@ -21,7 +21,6 @@
 <remove-project name="AICP/system_core" />
 <remove-project name="AICP/build_soong" />
 <remove-project name="AICP/build" />
-<remove-project name="platform/packages/apps/Gallery2" />
 
 <!-- Device Sources -->
 <project name="dragonGR/device_oneplus_enchilada" path="device/oneplus/enchilada" remote="git" revision="s12.1" />
@@ -40,7 +39,6 @@
 <project name="dragonGR/system_core" path="system/core" remote="git" revision="s12.1" />
 <project name="dragonGR/build_soong" path="build/soong" remote="git" revision="s12.1" />
 <project name="dragonGR/build" path="build" remote="git" revision="s12.1" />
-<project name="LineageOS/android_packages_apps_Gallery2" path="packages/apps/Gallery2" remote="git" revision="lineage-19.1" />
 
 <!-- MindTheGapps -->
 <project name="MindTheGapps/vendor_gapps" path="vendor/gapps" remote="lab" revision="sigma" />
