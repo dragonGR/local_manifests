@@ -38,7 +38,7 @@
 <project name="dragonGR/frameworks_native" path="frameworks/native" remote="git" revision="s12.1" />
 <project name="dragonGR/system_core" path="system/core" remote="git" revision="s12.1" />
 <project name="dragonGR/build_soong" path="build/soong" remote="git" revision="s12.1" />
-<project name="dragonGR/build" path="build" remote="git" revision="s12.1" />
+<project name="dragonGR/build" path="build/make" remote="git" revision="s12.1" />
 
 <!-- MindTheGapps -->
 <project name="MindTheGapps/vendor_gapps" path="vendor/gapps" remote="lab" revision="sigma" />
